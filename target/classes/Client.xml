@@ -59,10 +59,11 @@
 		<property name="dataSource" ref="datasource" />
 		 <property name="annotatedClasses">
   			<list>
-   				<value>com.pixogram.models.Content</value>
-                   <value>com.pixogram.models.Feedback</value>
-                   <value>com.pixogram.models.Followers</value>
-                   <value>com.pixogram.models.User</value>
+   				<value>com.client.models.Goods</value>
+   				<value>com.client.models.Merchants</value>
+   				<value>com.client.models.Payment</value>
+   				<value>com.client.models.Services</value>
+   				<value>com.client.models.User</value>
    				
   			</list>
   		</property>
